@@ -1,0 +1,54 @@
+﻿body {
+}
+.bg-para{
+    background-color:maroon;
+}
+
+.bg-par{
+    background-color:lightgoldenrodyellow;
+}
+.container {
+    background-color: rosybrown
+}
+
+body3 {
+    background-color:cadetblue;
+}
+body {
+    background-color:silver;
+}
+
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+    text-decoration-color=white;
+}
+
+.input-form{
+    padding-top:5px;
+}
+
+.labeldiv{
+   position:relative;
+   width:150px;
+   display:inline-block;
+}
+
+.labeldiv1{
+    position:relative;
+    width:150px;
+    display:inline-block;
+}
+
+.labeldiv2{
+    position:relative;
+    width:fit-content;
+    display:inline-block;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }

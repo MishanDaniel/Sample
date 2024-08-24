@@ -1,0 +1,130 @@
+﻿<div> 
+<html>
+    <body3>
+
+    <div class="text-center">  
+    <h1 style="background-color:red;">Registration Form</h1>
+    
+</body3>
+</html>
+</div>
+<div>
+   
+    <div class="input-form">
+        <div class="labeldiv">
+@Html.Label("First Name ")
+    
+@Html.TextBox("txtFirst Name", "", new { @class = "form-control" }) 
+@Html.Label("Last Name ")
+        <div class="labeldiv">
+            <div class="input-form">
+@Html.TextBox("txtLast Name", "", new { @class = "form-control" })
+    </div>
+    </div>
+        </div>
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+            
+@Html.Label("DOB")
+            <div class="input-form">
+                <div class="labeldiv">
+<input type="date" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+@Html.Label("Gender")
+                    <div class="input-form">
+                        <div class="labeldiv">
+@Html.RadioButton("Gender", "Male", true, new { id = "male" }) Male
+@Html.RadioButton("Gender", "Female", true, new { id = "Female" }) Female
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+@Html.Label("Martial Status")
+                    <div class="input-form">
+                        <div class="labeldiv">
+@Html.RadioButton("Martial Status", "Married", true, new { id = "Married" }) Married
+@Html.RadioButton("Martial Status", "UnMarried", true, new { id = "UnMarried" }) UnMarried
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+    @Html.Label("Work From Home")
+                    <div class="input-form">
+                        <div class="labeldiv">
+    @Html.CheckBox("Yes")
+    @Html.CheckBox("No")
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+    @Html.Label("Email")
+                    <div class="input-form">
+                        <div class="labeldiv">
+    @Html.TextBox("Email", "", new { @class = "input-control" })
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+    @Html.Label("Password")
+                    <div class="input-form">
+                        <div class="labeldiv">
+    @Html.Password("Password", "", new { @class = "input-control" } )
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+            <div class="input-form">
+                <div class="labeldiv">
+    @Html.Label("Address")
+                    <div class="input-form">
+                        <div class="labeldiv">
+    @Html.TextArea("Address"," ", new { @class = "input-form", id = "IdAdd" })
+</div>
+</div>
+</div>
+</div>
+</div>
+
+        <div class="input-form">
+            <button>Submit</button>
+        </div>
+        <img src="IMG_1333.jpg" alt="daniel" style="width:4px;height:5px;" />
